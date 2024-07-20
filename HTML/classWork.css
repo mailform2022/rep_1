@@ -1,0 +1,7 @@
+li>ul{
+    list-style: url(s.gif);
+}
+
+ol{
+    list-style: decimal none;
+}

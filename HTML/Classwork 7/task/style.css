@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.top {
+    background: #F3F3F3;
+    padding-bottom: 120px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+
+.head ul {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.head a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.head li {
+    margin-left: 21px;
+}
+
+.head h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 0;
+}
+
+.top h1 {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 120px 0 40px;
+}
+
+.top h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.button {
+    text-align: center;
+}
+
+.left {
+    width: 187px;
+    height: 48px;
+    background: #FFA62B;
+    border-radius: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 5px;
+}
+
+.right {
+    width: 157px;
+    height: 48px;
+    border: 1px solid #00A0C1;
+    border-radius: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #00A0C1;
+    border: none;
+    background: #FFF;
+    margin-left: 5px;
+}
+
+.as {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    /* gap: 438px;
+    width: 1050px;
+    height: 62px; */
+    
+    justify-content: space-between;
+    
+}
+
+
+.vertikal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* gap: 10px;
+    width: 454px;
+    height: 62px; */
+   
+}
+
+.vertikal h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: o auto;
+    padding: 0;
+}
+
+.vertikal p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: o auto;
+    /* padding: 40px auto; */
+}
+
+/* .button_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+    width: 160px;
+    height: 58px;
+    background: #FFA62B;
+    border-radius: 5px;
+} */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+    width: 160px;
+    height: 58px;
+    background: #FFA62B;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.down {
+    height: 142px;
+    /* left: 0px;
+    right: 0px; */
+    top: 681px;
+    background: #FAFAFA;
+}
+
+.backgraund {
+    width: 1440px;
+    height: 142px;
+    background: #252B42;
+    flex: none;
+    order: 5;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    /* gap: 10px;
+    
+    width: 236px;
+    height: 58px; */
+
+}
+
+.footer h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 53px 0;
+    /* padding: 0px;
+    gap: 10px;
+    width: 236px;
+    height: 58px; */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.backgraund ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    
+    width: 156px;
+    height: 24px;
+
+list-style: none;
+}

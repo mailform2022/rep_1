@@ -1,0 +1,20 @@
+body {
+    background-image: url(../img/pattern.png);
+}
+
+table {
+    width: 900px;
+    margin: 250px auto auto 200px;
+    background-image: url(../img/tablebg.jpg);
+    box-shadow: 0px 0px 5px 1px gray;
+}
+
+tr>td {
+    background: white;
+}
+
+.row>td {
+    background: silver;
+}
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    <style>
+        fieldset{
+             background: aqua;
+            width: 400px;
+        }
+
+        legend{
+            color: brown;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        input[type="button"]{
+            font-size: large;
+            margin-left: 100px;
+        }
+
+        form[name="form"]{
+            position: absolute;
+            left: 300px;
+            top: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form action="#" name="form">
+        <fieldset>
+        <legend>ОТГАДАЙ ЗАГАДКУ</legend>
+        <label for="1"> <input type="radio" name="radio" id="1" value="Снежинка">Зимой - звезда,
+        Весной - вода.</label> <br>
+        <label for="2"> <input type="radio" name="radio" id="2" value="Молоко">Жидкое, а не вода,
+        Белое, а не снег.</label> <br>
+        <label for="3"> <input type="radio" name="radio" id="3" value="Гром">Конь бежит, Земля дрожит.</label> <br>
+        <label for="4"> <input type="radio" name="radio" id="4" value="Ветер">Летит, а не птица,
+        Воет, а не зверь.</label> <br>
+        <label for="5"> <input type="radio" name="radio" id="5" value="Молоток">Сам худ, а голова с пуд.</label> <br>
+        <input type="button" value="Разгадать"> 
+    </fieldset>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

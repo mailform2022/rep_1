@@ -1,0 +1,49 @@
+.logo {
+    /* float: left; */
+}
+
+.lang {
+    float: right;
+}
+
+tr .text {
+    font-weight: bold;
+}
+.zagolovok {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+
+h2 {
+    /* float: left; */
+    /* margin-left: 0px;
+    padding-left: 0px;
+    text-align: left; */
+}
+
+.tab_1 {
+
+}
+
+.tr_1 {
+    font-style: italic;
+    color: grey;
+    font-size: 8pt;
+}
+
+.ssilka {
+    text-align: right;
+}
+
+.tab_button {
+    text-align: center;
+}
+.button {
+   width: 600px;
+}
+
+.ramka {
+    border: 1px solid blue;
+    padding-left: 10px;
+}

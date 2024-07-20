@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{  /* флекс-контейнер */
+	background: yellow;
+	margin: 100px auto;
+	padding: 10px 0;	
+
+	height: 400px;
+	display: flex;
+/* 
+	flex-direction: column-reverse; */
+	flex-wrap: wrap;
+	/* justify-content: space-evenly; */
+
+	/* align-items: baseline; */
+
+	/* align-content: space-evenly; */
+}
+
+.element{   /* флекс-элементы */
+	border: 1px solid black;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin: 20px;	
+
+	/* flex-basis: 300px; */
+	/* height: 150px; */
+}
+
+.first {
+	margin: auto;
+	align-self: flex-end;
+	order: 1;
+}
+
+.second {
+	margin-right: auto;
+	align-self: center;
+	order: -1;
+}

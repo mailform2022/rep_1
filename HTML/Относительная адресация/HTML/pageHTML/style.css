@@ -1,0 +1,9 @@
+body{
+    background-color: aquamarine;
+    background-image: url(background-image/leo.png);
+    background-repeat: no-repeat;
+    background-position: 300px 100px;
+}
+p {
+    background-color: rgba(0, 0, 255, .9);
+}
