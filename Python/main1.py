@@ -554,20 +554,24 @@
 #
 # print(return_num(5))
 
-def decor(fn):
-    def wrap(*args):
-        s = fn(*args) / len(args)
-        print("Среднее арифметическое чисел ", *args, " = ", s)
-        return s
+# def decor(fn):
+#     def wrap(*args):
+#         s = fn(*args) / len(args)
+#         print("Среднее арифметическое чисел ", *args, " = ", s)
+#         return s
+#
+#     return wrap
+#
+#
+# @decor
+# def all_summ(*args):
+#     a = sum(args)
+#     print("Сумма чисел ", *args, " = ", a)
+#     return a
+#
+#
+# all_summ(2, 4, 6, 5)
 
-    return wrap
 
-
-@decor
-def all_summ(*args):
-    a = sum(args)
-    print("Сумма чисел ", *args, " = ", a)
-    return a
-
-
-all_summ(2, 4, 6, 5)
+print('Новый код!')
+print('Ещё код!')
